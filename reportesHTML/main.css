@@ -1,0 +1,23 @@
+h1{
+   text-align: center;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+td,th {
+    margin: auto;
+    padding-left: 20px;
+    border: 1px solid black;
+
+}
+#noprint { display: block; }
+#print { display: none; }
+.printversion{
+    margin-top: 20px;
+    text-align: center;
+}
+.printit{
+    text-decoration: none;
+}
+  

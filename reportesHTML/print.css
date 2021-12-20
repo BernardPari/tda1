@@ -1,0 +1,19 @@
+/*para eliminar contenido innecesario como: anuncios ,pie de página,etc*/
+header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+    display: none;
+}
+/*estilos para imprimir*/
+body {
+    margin: 0;
+    color: #000;
+    background-color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 100%;
+    font-size: 15px;
+}
+/*para saltos de página*/ 
+.list {
+    page-break-after: always;
+}
+#noprint { display: none; }
+#print { display: block; }
